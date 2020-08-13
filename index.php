@@ -71,9 +71,6 @@ if ($path[1] == 'i') {
 		$steamid = substr($path, 10);
 	}
 }
-// else {
-// 	echo "НАПИШИ ССЫЛКУ НАРМАЛЬНО БЛЯТБ";
-// }
 
 //PART2
 $linkGames = 'http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?';
