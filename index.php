@@ -31,7 +31,6 @@
             <p>e.g: <span class="example">'https://steamcommunity.com/id/mediocreeee' </span> <br> or: <span class="example">'https://steamcommunity.com/profiles/76561198857721734'</span></p>
     <?php
 
-//TODO:ADD RESPONSIVE STYLES,
 //BASIC VARIABLES
 $key = 'EC5CABEEED9100CB16C508CA64F3A647';
 
@@ -57,7 +56,6 @@ if ($path[1] == 'i') {
 	$request_query_user = http_build_query($dataUser);
 	$requestUser = $linkUser . $request_query_user;
 	
-	echo $requestUser;
 //PARSING RESPONSE
 	$fileUser = file_get_contents($requestUser);
 	$userJSON = json_decode($fileUser, TRUE);
