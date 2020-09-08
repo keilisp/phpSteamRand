@@ -7,4 +7,4 @@ I wrote this for my friends who don't know what to play from their library.
 
 # Screenshot
 
-![screenshot](https://github.com/mediocreeee/phpSteamRand/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/mediocreeee/phpSteamRand/master/screenshot.png)
